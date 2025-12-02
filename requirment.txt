@@ -1,0 +1,78 @@
+Assignment Overview
+Duration: 1-2 days
+Submission: GitHub repository link
+Focus: Voice agent integration with custom API function
+This is a quick assessment to evaluate your:
+● Ability to work with voice agent frameworks
+● API integration skills
+● Code quality and problem-solving
+● Learning ability with new technologies
+
+Use Case: Simple Weather Voice Assistant
+Build a voice assistant that can tell users the weather for any city they ask about.
+Example Interaction:
+User: "What's the weather in Mumbai?"
+Agent: "Let me check that for you... The weather in Mumbai is currently
+28°C and sunny. It's a beautiful day!"
+User: "How about Bangalore?"
+Agent: "In Bangalore, it's 22°C with partly cloudy skies. Perfect weather!"
+User: "Will it rain in Pune tomorrow?"
+Agent: "Tomorrow in Pune, there's a 60% chance of rain with temperatures
+around 24°C. You might want to carry an umbrella!"
+
+Technical Requirements
+
+Option 1: Use LiveKit
+LiveKit Agents Framework - Perfect for voice agents!
+Resources:
+● GitHub: https://github.com/livekit-examples
+● Docs: https://docs.livekit.io/agents/
+● Quick Start: https://docs.livekit.io/agents/quickstart/
+Option 2: Alternative Frameworks (If you prefer)
+● Vocode: https://github.com/vocodedev/vocode-python
+● Pipecat: https://github.com/pipecat-ai/pipecat
+● Web Speech API: Browser-based (simpler but less powerful)
+
+What You Need to Build
+Core Requirements (Must Have):
+1. Voice Input/Output
+○ User speaks their query
+○ Agent responds with voice
+○ Use any framework from above (LiveKit recommended)
+2. Custom Weather Function (Most Important)
+○ Integrate Weather API (OpenWeatherMap, WeatherAPI.com, etc.)
+○ Extract city name from user's speech
+○ Fetch real-time weather data
+○ Agent speaks the weather information naturally
+3. Error Handling
+○ Handle city not found
+○ Handle API failures gracefully
+○ Handle unclear speech input
+
+Deliverables:
+1. Working voice agent (can run locally)
+2. Weather API integration function
+
+3. Clean code with comments
+4. README with setup instructions
+5. Screen recording (2-3 min) showing it working
+
+Sample Resources
+Weather APIs (Choose One - All have free tiers):
+1. OpenWeatherMap (Recommended)
+○ https://openweathermap.org/api
+○ Free: 1000 calls/day
+○ Easy to use
+2. WeatherAPI.com
+○ https://www.weatherapi.com/
+○ Free: 1M calls/month
+○ Good documentation
+3. Tomorrow.io
+○ https://www.tomorrow.io/weather-api/
+○ Free tier available
+Deliverables Checklist
+Before submitting, ensure you have:
+● GitHub Repository (public)
+○ Clean code structure
+○ Comments explaining key functions
+○ Include a README that clearly explains your approach.
