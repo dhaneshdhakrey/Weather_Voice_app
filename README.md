@@ -2,6 +2,20 @@
 
 A voice-controlled weather assistant built with React and Node.js. The user can ask for weather in any city, and the assistant will respond verbally.
 
+## Approach Followed
+This project was built with a focus on simplicity, performance, and user experience:
+1.  **Frontend-Backend Separation**:
+    -   **React (Vite)** handles the UI and voice interactions for a responsive and fast experience.
+    -   **Node.js/Express** serves as a secure backend proxy to handle API keys and data formatting, keeping sensitive credentials off the client side.
+2.  **Voice Integration**:
+    -   Utilized the **Web Speech API** (native browser standard) for Speech-to-Text (STT) and Text-to-Speech (TTS).
+    -   This approach eliminates the need for heavy external libraries or complex server-side voice processing, ensuring low latency.
+3.  **API Integration**:
+    -   Integrated **WeatherAPI.com** for reliable real-time weather data.
+    -   The backend processes the raw API response into a natural language string for the voice assistant to speak.
+4.  **Modern Styling**:
+    -   Used vanilla CSS with CSS variables and flexbox/grid for a clean, maintainable, and responsive design without the overhead of large CSS frameworks.
+
 ## Features
 - **Voice Input**: Uses Web Speech API to listen to user queries.
 - **Voice Output**: Speaks the weather information back to the user.
